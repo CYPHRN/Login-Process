@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Forum</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1>Community Forum</h1>
+            <a href="/dashboard" class="btn btn-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                </svg>
+                Back to Dashboard
+            </a>
+        </div>
+        <p>Join the discussion or start a new topic.</p>
+        
+        <div class="card mb-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <span>Forum Categories</span>
+                <button class="btn btn-primary btn-sm">Create New Topic</button>
+            </div>
+            <div class="card-body">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" aria-current="true">
+                        General Discussion
+                        <span class="badge bg-primary rounded-pill">14</span>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                        Technical Support
+                        <span class="badge bg-primary rounded-pill">8</span>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                        Tutorials & Guides
+                        <span class="badge bg-primary rounded-pill">3</span>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                        Feedback & Suggestions
+                        <span class="badge bg-primary rounded-pill">5</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <h2>Recent Discussions</h2>
+        
+        <div class="card mb-3">
+            <div class="card-header">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h5 class="mb-0">How to setup MongoDB with Express</h5>
+                        <small class="text-muted">Posted by <a href="#">john_doe</a> in Technical Support - 2 days ago</small>
+                    </div>
+                    <span class="badge bg-secondary">5 replies</span>
+                </div>
+            </div>
+            <div class="card-body">
+                <p class="card-text">I'm trying to setup MongoDB with my Express application but keep getting connection errors. Has anyone successfully implemented this? I've followed all the steps in the documentation but still having issues...</p>
+            </div>
+            <div class="card-footer text-end">
+                <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+            </div>
+        </div>
+        
+        <div class="card mb-3">
+            <div class="card-header">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h5 class="mb-0">Best practices for securing Node.js applications</h5>
+                        <small class="text-muted">Posted by <a href="#">security_expert</a> in Tutorials & Guides - 5 days ago</small>
+                    </div>
+                    <span class="badge bg-secondary">12 replies</span>
+                </div>
+            </div>
+            <div class="card-body">
+                <p class="card-text">I wanted to share some best practices I've learned for securing Node.js applications. This includes proper session management, input validation, and handling authentication. These tips have helped me prevent common security vulnerabilities...</p>
+            </div>
+            <div class="card-footer text-end">
+                <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+            </div>
+        </div>
+        
+        <div class="card mb-3">
+            <div class="card-header">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h5 class="mb-0">Introducing myself to the community</h5>
+                        <small class="text-muted">Posted by <a href="#">newbie123</a> in General Discussion - 1 week ago</small>
+                    </div>
+                    <span class="badge bg-secondary">8 replies</span>
+                </div>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Hi everyone! I'm new to web development and excited to join this community. I've been learning HTML, CSS, and JavaScript for a few months now. Currently working on building my first Express application. Looking forward to learning from all of you!</p>
+            </div>
+            <div class="card-footer text-end">
+                <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+            </div>
+        </div>
+        
+        <div class="card mb-3">
+            <div class="card-header">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h5 class="mb-0">Feature request: Dark mode for dashboard</h5>
+                        <small class="text-muted">Posted by <a href="#">dark_theme_lover</a> in Feedback & Suggestions - 2 weeks ago</small>
+                    </div>
+                    <span class="badge bg-secondary">15 replies</span>
+                </div>
+            </div>
+            <div class="card-body">
+                <p class="card-text">I would love to see a dark mode implemented for the dashboard. Many users (including myself) prefer dark themes for longer coding sessions as it reduces eye strain. Would anyone else be interested in this feature? I think it would be a great addition!</p>
+            </div>
+            <div class="card-footer text-end">
+                <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+            </div>
+        </div>
+        
+        <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                </li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
